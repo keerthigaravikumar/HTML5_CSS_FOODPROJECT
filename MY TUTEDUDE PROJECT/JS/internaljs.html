@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal js,onclick event</title>
+  </head>
+  <body>
+    <button id="changebutton">Click me</button>
+    <p id="userid">Hi user</p>
+    <script>
+      //document.getElementById("userid").innerHTML = "Welcome";
+      // comments
+      document.getElementById("changebutton").onclick = function () {
+        document.getElementById("userid").innerHTML = "Welcome";
+      };
+    </script>
+  </body>
+</html>

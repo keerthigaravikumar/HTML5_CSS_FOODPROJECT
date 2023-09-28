@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loops</title>
+  </head>
+  <body>
+    <p id="jvalue">The value of j is</p>
+    <script>
+      var arr = new Array();
+      var j = "";
+      arr = ["hi", "keerthiga", "how is your day"];
+      for (var i = 0; i < 3; i++) {
+        //console.log("this is ", i);
+        //alert("this is ", i);
+        //alert(arr[i]);
+        j = j + arr[i] + "  ";
+      }
+      document.getElementById("jvalue").innerHTML = j;
+      var k = 0;
+      while (k < 3) {
+        alert("hi");
+        k++;
+      }
+    </script>
+  </body>
+</html>

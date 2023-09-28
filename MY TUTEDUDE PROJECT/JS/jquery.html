@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery from website compressed version other is google embedded version -->
+    <script src="jquery.js"></script>
+    <style>
+      #circle {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 50%;
+      }
+      #square {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="circle"></div>
+      <br />
+      <div id="square"></div>
+      <br />
+      <div id="square"></div>
+    </div>
+    <script>
+      // if (jQuery == "undefined") {
+      //   alert("jquery not included");
+      // } else {
+      //   alert("jquery  included");
+      // }
+      // using js
+      // document.getElementById("circle").onclick = function () {
+      //   alert("clicked a circle");
+      // };
+      // document.getElementById("square").onclick = function () {
+      //   alert("clicked a square");
+      //};
+
+      // using jquery
+      // $("#circle").hover(function () {
+      //   alert("circle clicked");
+      // });
+      // $("#square").hover(function () {
+      //   alert("square hovered");
+      // });
+      $("div").click(function () {
+        alert("div clicked");
+      });
+    </script>
+  </body>
+</html>
