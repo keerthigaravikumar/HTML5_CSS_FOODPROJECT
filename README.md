@@ -1,1 +1,1 @@
-# HTML5_CSS_FOODPROJECT
+Final project - Responsive optimized code for the website 
